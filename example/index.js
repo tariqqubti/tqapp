@@ -9,7 +9,6 @@ env('DB_NAME', 'tqapp-test');
 env('ROOT_EMAIL', 'root@test.local');
 env('ROOT_PASSWORD', 'Abc123!@');
 
-server.li
 server.create();
 server.app.use(auth.middleware.parse);
 server.app.use('/auth', auth.router);
