@@ -25,3 +25,11 @@ const {api} = require('tqapp')
 const Model = require('./MongooseModel');
 const router = api.router.create(Model, 'read create update remove');
 ```
+
+## Authentication
+
+TODO: Add documentation
+
+## Testing for handling multiple data requests in the same http request
+
+TODO: Add documentation
